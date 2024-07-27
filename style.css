@@ -205,6 +205,136 @@
     label i{
     color: white;
     }
+
+    /* HABIT SECTION STARTS HERE */
+    .habit{
+        width: 160vh;
+        height: 110vh;
+        left: 0;
+        top: 0;
+        background:black;
+        margin: 0 auto;
+    }
+    .habit-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -2px;
+    }
+    .habit-title{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 900;
+        margin-top: 60px;
+    }
+
+    .habit-sub{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .card-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin-top: 40px;
+    }
+
+    .cardbox{
+        width: 220px;
+        height: 310px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cardbox img{
+        border-radius: 50%;
+        margin-top: 20px;
+        border: 3px solid lightgrey;
+    }
+
+    .cardbox h3{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 15px;
+    }
+
+    .cardbox p{
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    /* HABIT SECTION ENDS HERE */
+
+    /* RUN SECTION STARTS HERE */
+    .run-text{
+        width: 443px;
+        height: 290px;
+        left: 54px;
+        top: 41px;
+    }
+
+    .run-text h1{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 700;
+    }
+
+    .run-sub{
+        margin-top: 20px;
+    }
+
+    .run-btn{
+        width: 110px;
+        height: 25px;
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        padding: 15px 30px 15px 50px;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+
+    .run-img{
+        width: 443px;
+        height: 290px;
+    }
+
+    .run-img img{
+        width: 366px;
+        height: 312px;
+        border-radius: 18px;
+       padding: auto;
+    }
+
+    .run-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        width: 1060px;
+        height: 371px;
+        border-radius: 18px;
+        background: rgb(34, 34, 34);
+        margin: 0 auto;
+        margin-top: 100px;   
+    }
+    /* RUN SECTION EndS HERE */
+
+    /* For Small Device */
     @media screen and (max-width:576px){
         header{
             width: 58vh;
@@ -245,5 +375,51 @@
     .card02{
         height: 75px;
         width: 180px;
+    }
+
+    .habit{
+        width: 58vh;
+        height: 255vh;
+    }
+
+    .card-container{
+        flex-direction: column;
+    }
+
+    .run-container{
+        width: 48vh;
+        height: 70vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 80px;
+        margin-left: 50px;
+    }
+
+    .run-text{
+        width: 380px;
+        height: 210px;
+        margin-top:-120px;
+        margin-left: 20px;
+    }
+
+    .run-img{
+        width: 420px;
+        height: 210px;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .run-btn{
+        width: 230px;
+        height: 26px;
+        /* padding: 16px 40px 16px 40px; */
+        padding: 16px 0px 16px 130px;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 600;
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
     }
 }
