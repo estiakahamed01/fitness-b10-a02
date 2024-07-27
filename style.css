@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR:wght@100..400&family=Sevillana&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0;
+    }
+
+    /* Default Design */
+    .subtitle{
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    /* Default Design Ends */
+
+    body {
+    margin: 0 auto;
+    font-family: Inter;
+    }
+
+    header{
+        /* width: 1440px;
+        height: 715px; */
+        width: 160vh;
+        height: 80.6vh;
+        left: 0;
+        top: 0;
+        background: linear-gradient(180.00deg, rgb(0, 0, 0),rgba(11, 11, 11, 0.613) 100%);
+        margin: 0 auto;
+    }
+    nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 4rem;
+    }
+
+    
+    .brand{
+        text-decoration: none;
+        color: rgb(230, 83, 60);
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 800;
+    }
+    .list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+        gap: 25px;
+        width: 25.3rem;
+        height: 3.3rem;
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 39px;
+    }
+
+    .list-item{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 400;
+       
+    }
+
+    #Home{
+        width: 62px;
+        height: 22px;
+        border-radius: 46px;
+        background: rgb(230, 83, 60);
+        padding: 8px 10px 8px 20px;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .head-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .nav-text{
+            width: 600px;
+            height: 440px;           
+        }
+    
+        .nav-title{
+            color: rgb(255, 255, 255);
+            font-family: Inter;
+            font-size: 78px;
+            font-weight: 800;
+        }
+
+        .shape{
+            
+                font-family: "Sevillana", cursive;
+                font-size: 78px;
+                font-style: normal;
+                font-weight: 800;
+            }
+    .nav-sub{
+        font-size: 16px;
+    }
+
+    .text-sec-button{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+        margin-top: 28px;
+    }
+
+    .btn{
+        width: 150px;
+        height: 25px;
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
+        padding: 15px 20px 10px 50px;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+    }
+    
+    .btn-1{
+        width: 150px;
+        height: 25px;
+        border-radius: 42px;
+        border: 1px solid rgb(255, 255, 255);
+        padding: 15px 20px 10px 50px;
+        font-weight: 700;
+        color: rgb(255, 255, 255);
+    }
+
+    .img-sec{
+        margin-bottom: 200px;
+    }
+
+    .card1{
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(48, 48, 48, 0.54);
+        opacity: 0.8;
+    height: 100px;
+    width: 240px;
+    margin-top:-170px;
+    margin-left: -130px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    }
+    
+    .ball{
+        height: 50px;
+        width: 50px;
+        background-color: rgb(230, 83, 60);
+        border-radius: 50%;
+        
+    }
+    
+    .card1-item{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        
+    }
+    
+    .card1-item h2{
+        font-family: Inter;
+    font-size: 24px;
+    font-weight: 800;
+    }
+
+    .card2{
+        margin-top: -350px;
+        margin-left: 200px;
+    }
+    
+    .card2 h2{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 40px;
+        font-weight: 900;
+    }
+    
+    
+    #toggler, label{
+    display: none;
+    }
+    label i{
+    color: white;
+    }
+    @media screen and (max-width:576px){
+        header{
+            width: 58vh;
+            height: 127vh;
+            
+        }
+
+        .head-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 5px 0px 100px;
+        }
+
+        .img-sec img{
+            width: 353px;
+            height: 588px;
+        }
+    
+    .menu{
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    }
+    label{
+    display: inline-flex;
+    }
+
+    .fa-bars{
+        cursor: pointer;
+    }
+
+    .card01{
+        height: 70px;
+    width: 180px;
+    }
+    .card02{
+        height: 75px;
+        width: 180px;
+    }
+}
