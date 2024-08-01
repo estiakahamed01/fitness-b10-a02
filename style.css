@@ -23,7 +23,7 @@
     header{
         /* width: 1440px;
         height: 715px; */
-        width: 160vh;
+        max-width: 160vh;
         height: 80.6vh;
         left: 0;
         top: 0;
@@ -208,7 +208,7 @@
 
     /* HABIT SECTION STARTS HERE */
     .habit{
-        width: 160vh;
+        max-width: 160vh;
         height: 110vh;
         left: 0;
         top: 0;
@@ -338,7 +338,7 @@
     .traning-section{
         margin: 0 auto;
         background: black;
-        width: 160vh;
+        max-width: 160vh;
         height: 100vh
     }
 
@@ -536,6 +536,128 @@
     }
     /* Training Section Ends Here */
 
+    /* Calculate Section Starts Here*/
+    .calculate-sec{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 160vh;
+        height: 48vh;
+        background-color:  rgb(34, 34, 34);
+        margin: 0 auto;
+    }
+
+    .table-head{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 900;
+        margin-bottom: 53px;
+    }
+    .calculate-sec{
+        
+    }
+    table{
+        border-collapse: collapse;
+    }
+    td{
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 10px;
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    th{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        text-align: left;
+    }
+
+    .bmi-input-sec{
+        width: 577px;
+        height: 386px;
+    }
+
+    .bmi-input-title{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 900;
+        margin-top: 55px;
+        margin-bottom: 20px;
+    }
+    .bmi-input-subtitle{
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    .input-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+
+    .clc-button{
+        width: 228px;
+        height: 22px;
+        padding: 12px 40px 12px 20px;
+        border-radius: 8px;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        color: rgba(255, 255, 255, 0.6);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+
+    }
+
+    .sex-btn{
+        width: 287px;
+        height: 45px;
+        padding: 12px 40px 12px 20px;
+        border-radius: 8px;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        color: rgba(255, 255, 255, 0.6);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    #factor{
+        width: 580px;
+        height: 47px;
+        border: none;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        margin-top: 5px;
+        color: rgba(255, 255, 255, 0.6);
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .clc-btn{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 42px;
+        background: rgb(230, 83, 60);
+        padding: 13px 60px 13px 60px;
+        border: none;
+        margin-top: 20px;
+    }
+    /* Calculate Section Ends Here*/
+
     /* For Small Device */
     @media screen and (max-width:576px){
         header{
@@ -713,5 +835,34 @@
     .bmi-txt p{
         text-align: justify;
         margin-top: 10px;
+    }
+    .calculate-sec{
+        flex-direction: column;
+        width: 58vh;
+        height: 85vh;
+    }
+    .table-section{
+        margin-left: -150px;
+    }
+    .bmi-input-sec{
+        margin-left: -60px;
+        width: 354px;
+        height: 395px;
+    }
+
+    .clc-button{
+        width: 115px;
+        height: 22px;
+        padding: 12px 40px 12px 20px;
+    }
+    .sex-btn{
+        width: 173px;
+        height: 45px;
+        padding: 12px 40px 12px 20px;
+    }
+    #factor{
+        width: 353px;
+        height: 48px;
+        padding: 12px 40px 12px 20px;
     }
 }
