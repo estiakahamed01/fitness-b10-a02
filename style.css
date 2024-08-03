@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+HR:wght@100..400&family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&display=swap');
 
 *{
     margin: 0; 
@@ -774,6 +776,804 @@
     
     /* Trainer Section Endss Here */
 
+    /* Challenge PArt Starts Here */
+    .challenge-Section{
+        margin: 0 auto;
+        background: black;
+        max-width: 160vh;
+        height: 180vh
+    }
+    
+    .challenge-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .challenge-text h1{
+        color: white;
+        font-family: Inter;
+        font-size: 44px;
+        font-weight: 800;
+        margin-bottom: 30px;
+    }
+
+    .challenge-text p{
+        color: gray;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .accessories-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        max-width: 118vh;
+        padding: 10px;
+        border-radius: 14px;
+        gap: 10px;
+        margin: 0 auto;
+        background: rgba(255, 255, 255, 0.1);
+
+    }
+    .img-overlay01{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-image: url(./images/Accessories-01.jpg);
+        background-repeat: no-repeat;
+        background-size: 270px;
+        background-position: center;
+    }
+    .img01{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-color: rgba(0, 8, 255, 0.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img01 h2{
+        font-family: "Odibee Sans", sans-serif;
+        font-weight: 500;
+        font-size: 28px;
+    }
+
+    .img01 h2:hover{
+        width: 100px;
+        height: 35px;
+        border-radius: 5px;
+        background-color: rgb(4, 226, 246);
+        
+    }
+
+    .img-overlay02{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-image: url(./images/Accessories-02.png);
+        background-repeat: no-repeat;
+        background-size: 270px;
+        background-position: top;
+    }
+
+    .img02{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-color: rgba(255, 0, 0, 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+    }
+
+    .img02 h2{
+        font-family: "Odibee Sans", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    .img02 h2:hover{
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: rgb(4, 226, 246);
+        text-align: center;
+        color: black;
+    }
+    .img-overlay03{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-image: url(./images/Accessories-03.jpg);
+        background-repeat: no-repeat;
+        background-size: 330px;
+        background-position: top;
+    }
+
+    .img03{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-color: rgba(0, 174, 255, 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+    }
+
+    .img03 h2{
+        font-family: "Odibee Sans", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    .img03 h2:hover{
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: rgb(4, 226, 246);
+        text-align: center;
+        color: black;
+        
+    }
+    .img-overlay04{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-image: url(./images/Accessories-04.jpg);
+        background-repeat: no-repeat;
+        background-size: 330px;
+        background-position: top;
+    }
+
+    .img04{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-color: rgba(0, 242, 255, 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+    }
+
+    .img04 h2{
+        font-family: "Odibee Sans", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    .img04 h2:hover{
+        width: 140px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: rgb(4, 226, 246);
+        text-align: center;
+        color: black;
+        
+    }
+    .img-overlay05{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-image: url(./images/Accessories-05.jpg);
+        background-repeat: no-repeat;
+        background-size: 330px;
+        background-position: top;
+    }
+
+    .img05{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-color: rgba(0, 255, 110, 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+    }
+
+    .img05 h2{
+        font-family: "Odibee Sans", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    .img05 h2:hover{
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: rgb(4, 226, 246);
+        text-align: center;
+        color: black;
+        
+    }
+    .img-overlay06{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-image: url(./images/Accessories-06.jpg);
+        background-repeat: no-repeat;
+        background-size: 330px;
+        background-position: right;
+    }
+
+    .img06{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-color: rgba(179, 255, 0, 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+    }
+
+    .img06 h2{
+        font-family: "Odibee Sans", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    .img06 h2:hover{
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: rgb(4, 226, 246);
+        text-align: center;
+        color: black;
+        
+    }
+    .img-overlay07{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-image: url(./images/Accessories-07.jpg);
+        background-repeat: no-repeat;
+        background-size: 330px;
+        background-position: right;
+    }
+
+    .img07{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-color: rgba(255, 119, 0, 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+    }
+
+    .img07 h2{
+        font-family: "Odibee Sans", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    .img07 h2:hover{
+        width: 80px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: rgb(4, 226, 246);
+        text-align: center;
+        color: black;
+        
+    }
+    .img-overlay08{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-image: url(./images/Accessories-08.jpg);
+        background-repeat: no-repeat;
+        background-size: 330px;
+        background-position: right;
+    }
+
+    .img08{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-color: rgba(255, 60, 0, 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+    }
+
+    .img08 h2{
+        font-family: "Odibee Sans", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    .img08 h2:hover{
+        width: 80px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: rgb(4, 226, 246);
+        text-align: center;
+        color: black;
+        
+    }
+    .img-overlay09{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-image: url(./images/Accessories-09.jpg);
+        background-repeat: no-repeat;
+        background-size: 330px;
+        background-position: center;
+    }
+
+    .img09{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-color: rgba(255, 0, 0, 0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+    }
+
+    .img09 h2{
+        font-family: "Odibee Sans", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    .img09 h2:hover{
+        width: 80px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: rgb(4, 226, 246);
+        text-align: center;
+        color: black;
+        
+    }
+    .img-overlay10{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-image: url(./images/Accessories-10.jpg);
+        background-repeat: no-repeat;
+        background-size: 320px;
+        background-position:top;
+    }
+
+    .img10{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-color: rgba(187, 0, 255, 0.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+    }
+
+    .img10 h2{
+        font-family: "Odibee Sans", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    .img10 h2:hover{
+        width: 80px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: rgb(4, 226, 246);
+        text-align: center;
+        color: black;
+        
+    }
+    .img-overlay11{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-image: url(./images/Accessories-11.jpg);
+        background-repeat: no-repeat;
+        background-size: 330px;
+        background-position:top;
+    }
+
+    .img11{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-color: rgba(0, 149, 255, 0.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+    }
+
+    .img11 h2{
+        font-family: "Odibee Sans", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    .img11 h2:hover{
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: rgb(4, 226, 246);
+        text-align: center;
+        color: black;
+        
+    }
+    .img-overlay12{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-image: url(./images/Accessories-12.jpg);
+        background-repeat: no-repeat;
+        background-size: 330px;
+        background-position:top;
+    }
+
+    .img12{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-color: rgba(0, 225, 255, 0.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+    }
+
+    .img12 h2{
+        font-family: "Odibee Sans", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    .img12 h2:hover{
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: rgb(4, 226, 246);
+        text-align: center;
+        color: black;
+        
+    }
+    .img-overlay13{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-image: url(./images/Accessories-13.jpg);
+        background-repeat: no-repeat;
+        background-size: 330px;
+        background-position:top;
+    }
+
+    .img13{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-color: rgba(0, 225, 255, 0.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+    }
+
+    .img13 h2{
+        font-family: "Odibee Sans", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    .img13 h2:hover{
+        width: 120px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: rgb(4, 226, 246);
+        text-align: center;
+        color: black;
+        
+    }
+    .img-overlay14{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-image: url(./images/Accessories-14.jpg);
+        background-repeat: no-repeat;
+        background-size: 320px;
+        background-position:bottom;
+    }
+
+    .img14{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-color: rgba(0, 225, 255, 0.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+    }
+
+    .img14 h2{
+        font-family: "Odibee Sans", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    .img14 h2:hover{
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: rgb(4, 226, 246);
+        text-align: center;
+        color: black;
+        
+    }
+    .img-overlay15{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-image: url(./images/Accessories-15.jpg);
+        background-repeat: no-repeat;
+        background-size: 320px;
+        background-position:bottom;
+    }
+
+    .img15{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-color: rgba(34, 255, 0, 0.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+    }
+
+    .img15 h2{
+        font-family: "Odibee Sans", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    .img15 h2:hover{
+        width: 120px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: rgb(4, 226, 246);
+        text-align: center;
+        color: black;
+        
+    }
+    .img-overlay16{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-image: url(./images/Accessories-16.jpg);
+        background-repeat: no-repeat;
+        background-size: 320px;
+        background-position:bottom;
+    }
+
+    .img16{
+        width: 270px;
+        height: 214px;
+        border-radius: 14px;
+        background-color: rgba(0, 255, 128, 0.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+    }
+
+    .img16 h2{
+        font-family: "Odibee Sans", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+    }
+    .img16 h2:hover{
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        background-color: rgb(4, 226, 246);
+        text-align: center;
+        color: black;
+        
+    }
+
+    /* Quote Part Start Here */
+    .quote-text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+
+    .quote-text h1{
+        font-family: Inter;
+        font-size: 28px;
+        font-weight: 700;
+        color: white;
+        te
+    }
+    .quote{
+        max-width: 117.5vh;
+        height: 40vh;
+        background: rgba(255, 255, 255, 0.1);
+        margin: 0 auto;
+        border-radius: 14px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .quote01{
+        width: 58vh;
+        background: rgba(255, 0, 0, 0.1);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 14px;
+    }
+    .quote01-text{
+        width: 30vh;
+        height: 18vh;
+    }
+    .quote01-text h5{
+        font-family: "Gupter", serif;
+        font-weight: 600;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.536);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .quote01-text p{
+        font-family: "Gupter", serif;
+        font-weight: 700;
+        font-size: 22px;
+        color: darkgray;
+    }
+
+    .quote01-img{
+        width: 150px;
+        height: 150px;
+        background-image: url(./images/quote01.jpeg);
+        background-repeat: no-repeat;
+        background-size: 150px;
+        border-radius: 50%;
+        border: 3px solid lightgray;
+    }
+
+    .quote02{
+        width: 58vh;
+        background: rgba(0, 255, 204, 0.1);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 14px;
+    }
+    .quote02-text{
+        width: 30vh;
+        height: 18vh;
+    }
+    .quote02-text h5{
+        font-family: "Gupter", serif;
+        font-weight: 600;
+        font-size: 18.5px;
+        color: rgba(255, 255, 255, 0.536);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .quote02-text p{
+        font-family: "Gupter", serif;
+        font-weight: 700;
+        font-size: 20.5px;
+        color: darkgray;
+    }
+
+    .quote02-img{
+        width: 150px;
+        height: 150px;
+        background-image: url(./images/quote02.jpeg);
+        background-repeat: no-repeat;
+        background-size: 200px;
+        border-radius: 50%;
+        background-position: center;
+        border: 3px solid lightgray;
+    }
+    .quote03{
+        width: 58vh;
+        background: rgba(0, 89, 255, 0.1);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 14px;
+    }
+    .quote03-text{
+        width: 30vh;
+        height: 18vh;
+    }
+    .quote03-text h5{
+        font-family: "Gupter", serif;
+        font-weight: 600;
+        font-size: 18.5px;
+        color: rgba(255, 255, 255, 0.536);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .quote03-text p{
+        font-family: "Gupter", serif;
+        font-weight: 700;
+        font-size: 20.5px;
+        color: darkgray;
+    }
+
+    .quote03-img{
+        width: 150px;
+        height: 150px;
+        background-image: url(./images/quote03.jpeg);
+        background-repeat: no-repeat;
+        background-size: 150px;
+        border-radius: 50%;
+        background-position: top;
+        border: 3px solid lightgray;
+    }
+    .quote04{
+        width: 58vh;
+        background: rgba(162, 0, 255, 0.1);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 14px;
+    }
+    .quote04-text{
+        width: 30vh;
+        height: 18vh;
+    }
+    .quote04-text h5{
+        font-family: "Gupter", serif;
+        font-weight: 600;
+        font-size: 18.5px;
+        color: rgba(255, 255, 255, 0.536);
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .quote04-text p{
+        font-family: "Gupter", serif;
+        font-weight: 700;
+        font-size: 20.5px;
+        color: darkgray;
+    }
+
+    .quote04-img{
+        width: 150px;
+        height: 150px;
+        background-image: url(./images/quote04.jpeg);
+        background-repeat: no-repeat;
+        background-size: 250px;
+        border-radius: 50%;
+        background-position: top;
+        border: 3px solid lightgray;
+    }
+    /* Quote Part End Here */
+    /* Challenge PArt Ends Here */
+
     /* For Small Device */
     @media screen and (max-width:576px){
         header{
@@ -1011,5 +1811,43 @@
         width: 30vh;
         display: flex;
         flex-direction: column;
+    }
+    .challenge-Section{
+        width: 58vh;
+        height: 210vh;
+        background-color: black;
+    }
+    
+    .challenge-text h1{
+        color: white;
+        font-family: Inter;
+        font-size: 35px;
+        font-weight: 800;
+        margin-bottom: 30px;
+    }
+    .accessories-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 30vh;
+        height: 93.5vh;
+        overflow-y: auto;
+        overflow-x: hidden;
+        
+    }
+
+    .quote-text h1{
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+    }
+    .quote{
+        width: 54vh;
+        height: 80vh;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .quotebox{
+        max-width: 54vh;
     }
 }
