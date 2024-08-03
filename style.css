@@ -1574,6 +1574,78 @@
     /* Quote Part End Here */
     /* Challenge PArt Ends Here */
 
+    /* Footer Design Starts Here */
+    footer{
+        margin: 0 auto;
+        background:rgba(0, 0, 0, 0.850);
+        max-width: 160vh;
+        height: 50vh
+    }
+    .footer-text{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 50px;
+    }
+    .footer-text01{
+        max-width: 420px;
+        height: 176px;
+    }
+
+    .footer-text01 h1{
+        font-family: Inter;
+        font-size: 60px;
+        font-weight: 800;
+        color: rgb(230, 83, 60);
+    }
+    
+    .footer-text01 p{
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .footer-text02 h2{
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 35px;
+    }
+
+    .footer-text02 p{
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 21px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+
+    hr{
+        max-width: 118vh;
+        margin: 0 auto;
+        margin-top: 45px;
+        border: 2px solid rgba(255, 255, 255, 0.1);
+    }
+
+    #footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    #footer p{
+        color: rgba(255, 255, 255, 0.5);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    /* Footer Design Ends Here */
+
     /* For Small Device */
     @media screen and (max-width:576px){
         header{
@@ -1849,5 +1921,20 @@
 
     .quotebox{
         max-width: 54vh;
+    }
+    footer{
+        width: 58vh;
+        height: 96vh;       
+    }
+    .footer-text{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 30px;
+    }
+    .footer-text02{
+        width: 200px;
+    }
+    hr{
+        max-width: 55vh;
     }
 }
