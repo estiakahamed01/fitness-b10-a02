@@ -15,6 +15,10 @@
         font-size: 14px;
         font-weight: 400;
     }
+
+    .hide{
+        display: none;
+    }
     /* Default Design Ends */
 
     body {
@@ -557,9 +561,7 @@
         font-weight: 900;
         margin-bottom: 53px;
     }
-    .calculate-sec{
-        
-    }
+    
     table{
         border-collapse: collapse;
     }
@@ -1626,8 +1628,15 @@
         font-weight: 400;
         color: rgba(255, 255, 255, 0.5);
     }
+    .footer-text02{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 200px;
+    }
 
-    .footer-text02 h2{
+    .text02 h2{
         color: rgb(255, 255, 255);
         font-family: Inter;
         font-size: 30px;
@@ -1635,7 +1644,7 @@
         margin-bottom: 35px;
     }
 
-    .footer-text02 p{
+    .text02 p{
         color: rgba(255, 255, 255, 0.5);
         font-family: Inter;
         font-size: 21px;
@@ -1924,8 +1933,59 @@
         width: 30vh;
         height: 93.5vh;
         overflow-y: auto;
-        overflow-x: hidden;
-        
+        overflow-x: hidden;        
+    }
+    .axcrs001{
+        position: sticky;
+        top: 10px;
+    }
+    .axcrs002{
+        position: sticky;
+        top: 20px;
+    }
+    .axcrs003{
+        position: sticky;
+        top: 30px;
+    }
+    .axcrs004{
+        position: sticky;
+        top: 40px;
+    }
+    .axcrs005{
+        position: sticky;
+        top: 50px;
+    }
+    .axcrs006{
+        position: sticky;
+        top: 60px;
+    }
+    .axcrs007{
+        position: sticky;
+        top: 70px;
+    }
+    .axcrs008{
+        position: sticky;
+        top: 80px;
+    }
+    .axcrs009{
+        position: sticky;
+        top: 90px;
+    }
+    .axcrs010{
+        position: sticky;
+        top: 100px;
+    }
+    .axcrs011{
+        position: sticky;
+        top: 110px;
+    }
+    .axcrs012{
+        position: sticky;
+        top: 120px;
+    }
+    .axcrs013{
+        position: sticky;
+        top: 130px;
     }
 
     .quote-text h1{
@@ -1952,10 +2012,224 @@
         align-items: flex-start;
         padding-left: 30px;
     }
+
     .footer-text02{
-        width: 200px;
+        flex-direction: column;
+        gap: 0;
     }
     hr{
-        max-width: 55vh;
+        max-width: 54vh;
+    }
+
+    #footer{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    header{
+        max-width: 106vh;
+        height: 127.2vh;
+        margin: 0 auto;
+    }
+    .head-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 5px 0px 100px;
+    }
+    .nav-text{
+        position: relative;
+        left: -170px;
+    }
+
+    .habit{
+        max-width: 106vh;
+        height: 150vh;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 60vh;
+        position: relative;
+        left: 220px;
+    }
+
+    .run-container{
+        max-width: 90vh;
+    }
+    .run-text{
+        position: relative;
+        top: 0px;
+        left: 40px;
+    }
+    .traning-section{
+        max-width: 106vh;
+        height: 105vh;
+    }
+
+    .exr-img1{
+        width: 250px;
+        height: 214px;
+    }
+
+    .image01{
+        width: 250px;
+        height: 214px;
+    }
+
+    .exr-img2{
+        width: 350px;
+        height: 214px;
+    }
+
+    .image02{
+        width: 350px;
+        height: 214px;
+    }
+
+    .exr-img3{
+        width: 280px;
+        height: 214px;
+    }
+
+    .image03{
+        width: 280px;
+        height: 214px;
+    }
+
+    .exr-img4{
+        width: 370px;
+        height: 214px;
+    }
+
+    .image04{
+        width: 370px;
+        height: 214px;
+    }
+
+    .image05{
+        width: 260px;
+        height: 214px;
+    }
+    .exr-img5{
+        width: 260px;
+        height: 214px;
+    }
+    .image06{
+        width: 250px;
+        height: 214px;
+    }
+    .exr-img6{
+        width: 250px;
+        height: 214px;
+    }
+
+    .traning-text{
+        width: 500px;
+        height: 120px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .traning-text h1{
+        font-size: 40px;
+    }
+    .subtitle{
+        text-align: center;
+    }
+
+    .bmi-txt{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bmi-txt p{
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    .calculate-sec{
+        max-width: 106vh;
+        height: 80vh;
+        flex-direction: column;
+    }
+
+    .table-section{
+        position: relative;
+        left: -160px;
+    }
+
+    .trainer-section{
+        max-width: 106vh;
+        height: 90vh;
+    }
+
+    .challenge-Section{
+        max-width: 106vh;
+        height: 209vh;
+    }
+
+    .accessories-container{
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 90vh;
+    }
+
+    .row0001{
+        position: sticky;
+        top: 20px;
+    }
+    .row0002{
+        position: sticky;
+        top: 50px;
+    }
+    .row0003{
+        position: sticky;
+        top: 80px;
+    }
+    .row0004{
+        position: sticky;
+        top: 110px;
+    }
+    .row0005{
+        position: sticky;
+        top: 130px;
+    }
+
+    .hide16{
+        display: none;
+    }
+    
+    .quote{
+        max-width: 89.5vh;
+        height: 50vh;
+    }
+
+    .quote-medium{
+        max-width: 42vh;
+        padding: 10px;
+    }
+    footer{
+        max-width: 106vh;
+        height: 70vh;
+    }
+    .footer-text{
+        flex-direction: column;
+    }
+
+    .footer-text01{
+        position: relative;
+        left: -220px;
+    }
+    .footer-text02{
+        position: relative;
+        left: -165px;
+    }
+    hr{
+        max-width: 90vh;
     }
 }
