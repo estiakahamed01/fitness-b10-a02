@@ -1391,6 +1391,26 @@
         
     }
 
+    /* Challenge Part Sticky */
+    .first-row{
+        position: sticky;
+        top: 10px;
+    }
+
+    .second-row{
+        position: sticky;
+        top: 30px;
+    }
+    .Third-row{
+        position: sticky;
+        top: 50px;
+    }
+    .Fourth-row{
+        position: sticky;
+        top: 20px;
+    }
+    /* Challenge Part Sticky */
+
     /* Quote Part Start Here */
     .quote-text{
         display: flex;
@@ -1884,6 +1904,7 @@
         display: flex;
         flex-direction: column;
     }
+
     .challenge-Section{
         width: 58vh;
         height: 210vh;
